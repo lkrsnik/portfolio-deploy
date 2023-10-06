@@ -1,0 +1,289 @@
+/* Timeline custom component */
+.override-link {
+  color: #4f4f4f;
+  border-bottom: None !important;
+}
+
+.override-link:hover {
+  color: #333333;
+}
+
+.timeline-card {
+  position: relative;
+  margin-left: 16px; }
+
+.timeline-card:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: -12px;
+  border: 5px solid;
+  z-index: 2; }
+
+.timeline-body {
+  border-left: 2px solid #E6E9ED; }
+
+.timeline-card-primary:before {
+  border-color: var(--bs-primary); }
+
+.timeline-card-info:before {
+  border-color: var(--bs-info); }
+
+.timeline-card-secondary:before {
+  border-color: var(--bs-secondary); }
+
+.timeline-card-success:before {
+  border-color: var(--bs-teal); }
+
+html {
+  scroll-behavior: smooth; }
+
+html, body {
+  overflow-x: hidden; }
+
+.container {
+  max-width: 1140px; }
+
+.site-title {
+  font-size: 1.25rem;
+  line-height: 2.5rem; }
+
+.nav-link {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: inherit;
+  opacity: 0.8; }
+
+.header-social .nav-link {
+  font-size: 1.25rem; }
+
+.header-social-big .nav-link {
+  font-size: 2.5rem; }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: inherit;
+  opacity: 1; }
+
+.nav-item + .nav-item {
+  margin-left: 1rem; }
+
+.cover {
+  height: 500px; }
+
+.cover > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto; }
+
+.progress-bar {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px; }
+
+.text-small {
+  font-size: 0.85rem; }
+
+.text-teal {
+  color: var(--bs-teal); }
+
+footer a:not(.nav-link) {
+  color: inherit;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+  cursor: pointer; }
+
+.mdc-chip-set {
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.mdc-chip-shown {
+    border-radius: 16px;
+    color: rgb(79, 79, 79);
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0178571429em;
+    text-decoration: inherit;
+    text-transform: inherit;
+    height: 32px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d0d0d0;
+    outline: none;
+    transition: all .3s linear;
+    margin: 1px;
+    background-color: white;
+}
+
+.mdc-chip {
+    border-radius: 16px;
+    color: rgb(79, 79, 79);
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0178571429em;
+    text-decoration: inherit;
+    text-transform: inherit;
+    height: 32px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d0d0d0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s linear;
+    margin: 1px;
+}
+
+.mdc-chip:hover {
+  background-color: #eeeeee;
+}
+
+.mdc-chip-selected {
+    background-color: #d0d0d0;
+}
+.mdc-chip-selected:hover {
+    background-color: #c0c0c0;
+}
+
+.page-item.active .pagination-item {
+    background-color: #d0d0d0;
+    color: rgb(79, 79, 79);
+    box-shadow: None;
+}
+
+.pagination-item {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(79, 79, 79);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(79, 79, 79);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(79, 79, 79);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(79, 79, 79);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(79, 79, 79);
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 23.0333px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    outline-color: rgb(79, 79, 79);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 6px;
+    padding-left: 13.456px;
+    padding-right: 13.456px;
+    padding-top: 6px;
+    position: relative;
+    text-decoration-color: rgb(79, 79, 79);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.pagination-item:hover {
+    background-color: #eeeeee;
+}
+
+.mdl-layout {
+  display: grid;
+  justify-content: center;
+  margin: 10px; }
+
+@media (min-width: 48em) {
+  .site-title {
+    float: left; }
+  .site-nav {
+    float: right; } }
+
+@media (max-width: 767px) {
+  /* disable animations on mobile */
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important; }
+  .p-5 {
+    padding: 2.5rem 2rem !important; }
+  .portfolio-section .m-5 {
+    margin: 2rem 0 1rem !important; }
+  .portfolio-reverse {
+    flex-direction: column-reverse; }
+  .portfolio-reverse .text-end {
+    text-align: start !important; } }
+
+@media print {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important; }
+  body.bg-light {
+    background-color: #fff !important; }
+  .container {
+    width: auto;
+    max-width: 100%;
+    padding: 0; }
+  .cover {
+    height: 360px;
+    margin-bottom: 1.5rem; }
+  .cover > img {
+    display: none; }
+  .shadow-1-strong {
+    box-shadow: none !important; }
+  .resume-container > .my-5 {
+    margin: 0 !important; }
+  .my-5.p-5 {
+    padding: 1.5rem 0 !important; }
+  .about-section {
+    padding: 0 !important; }
+  .skills-section,
+  .work-experience-section,
+  .education-section,
+  .portfolio-section,
+  .reference-section,
+  .contact-section {
+    padding: 0 !important; }
+  .page-break {
+    padding-top: 5rem;
+    page-break-before: always; } }
