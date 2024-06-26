@@ -113,7 +113,6 @@ $(document).ready(function(){
         for (var pObj of $('#blog-section div.row')){
             allBlogs['All'].push(pObj);
         }
-        console.log('hmm')
         showTag('All', allBlogs, rowsShown, '#blog-nav-pagination', '#blog-section')
     }
 });
