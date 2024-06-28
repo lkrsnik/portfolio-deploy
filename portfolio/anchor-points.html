@@ -115,19 +115,20 @@
     <div class="contant-section">
       <h2>Project Description</h2>
 <h3>Overview</h3>
-<p>Our project centered on the investigation of cross-lingual embedding alignment using anchor points, even in the absence of proper dictionaries. The primary goal was to enable the training of a language model for a specific downstream task in one language and its effective application in another.</p>
+<p>This research project investigated embedding alignment using anchor points in the absence of proper dictionaries. The main idea behind this concept is to find a way to transform a word embedding vector from one language into a vector of translated word. The reason for this is to enable the training for a specific task in one language and effectively apply it in another.</p>
 <h3>Key details</h3>
 <ul>
-<li><strong>Collaborative effort</strong> with a colleague, where I created anchor points and found datasets for downstream evaluation.</li>
-<li><strong>Pursued two distinct approaches for generating anchor points:</strong> Utilized aligned corpora from <a href="https://opus.nlpl.eu/MultiParaCrawl.php">MultiParaCrawl</a> to extract named entities in both languages. Identified an equal number of named entities, treated them as translations, and employed them as anchor points. Additionally, harnessed <a href="https://babelnet.org/">BabelNet</a>, a semantic network linking concepts and named entities across multiple languages, to expand the pool of anchor points.</li>
+<li><strong>Role</strong> I collaborated with a colleague, where I created anchor points and found datasets for downstream evaluation, while he focused on aligning embeddings.</li>
+<li><strong>Generating anchor points using aligned corpora:</strong> Utilized aligned corpora from <a href="https://opus.nlpl.eu/MultiParaCrawl.php">MultiParaCrawl</a> to extract named entities in both languages. Identified an equal number of named entities, treated them as translations, and employed them as anchor points. </li>
+<li><strong>Generating anchor points using a semantic network:</strong> Used <a href="https://babelnet.org/">BabelNet</a>, a semantic network that links concepts and named entities across multiple languages, for anchor points generation.</li>
 </ul>
 <h2>Project Outcome</h2>
 <p>We tested various anchor points in a downstream task, leading to the following findings and insights:</p>
 <ul>
-<li>Hand-checked dictionaries yielded the best results, highlighting their importance.</li>
-<li>In the absence of dictionaries, alternative anchor points delivered satisfactory results, albeit slightly less effective.</li>
-<li>BabelNet-derived anchor points outperformed those from named entities, showing superior performance.</li>
-<li>Highest effectiveness observed when aligning similar languages, leveraging their linguistic similarities.</li>
+<li>Hand-checked dictionaries yielded the best results.</li>
+<li>In the absence of dictionaries, alternative anchor points delivered satisfactory results.</li>
+<li>BabelNet-derived anchor points outperformed those from named entities.</li>
+<li>Highest effectiveness was observed when aligning similar languages.</li>
 </ul>
     </div>
   </div>
